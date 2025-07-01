@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<link
+  rel="stylesheet"
+  href="https://unpkg.com/98.css">
+<head>
+<title>Page Title</title>
+<style>
+  body {
+    background-color: #008080;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+  }
+</style>
+</head>
+<body>
+<div class="window" style="width: 500px">
+  <div class="title-bar">
+    <div class="title-bar-text">A Window With A Status Bar</div>
+  </div>
+  <div class="window-body">
+    <div class="window-body">
+      <menu role="tablist">
+        <li role="tab" aria-selected="true"><a href="#tabs">Desktop</a></li>
+        <li role="tab"><a href="#tabs">My computer</a></li>
+        <li role="tab"><a href="#tabs">Control panel</a></li>
+        <li role="tab"><a href="#tabs">Devices manager</a></li>
+        <li role="tab"><a href="#tabs">Hardware profiles</a></li>
+        <li role="tab"><a href="#tabs">Performance</a></li>
+      </menu>
+      <div class="window" role="tabpanel">
+        <div class="window-body">
+          <p>the tab content</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="status-bar">
+    <p class="status-bar-field">Welcome!</p>
+  </div>
+</div>
+</body>
+</html>
